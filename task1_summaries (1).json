@@ -1,0 +1,231 @@
+{
+  "report": "IMF Country Report No. 25/283 - Vietnam 2025 Article IV",
+  "cleaning": {
+    "raw_chars": 153894,
+    "clean_chars": 140173,
+    "lines_removed": {
+      "blank": 278,
+      "IMF banner": 63,
+      "header/footer": 137,
+      "page number / chart axis value": 422,
+      "TOC leader / separator": 33
+    }
+  },
+  "chunking": {
+    "n_chunks": 107,
+    "max_tokens": 350,
+    "overlap": 50
+  },
+  "sections": {
+    "PRESS RELEASE AND KEY ISSUES": {
+      "notes": [
+        "Real GDP expanded by 7.1 percent in 2024 and 7.5 percent (y/y) in H1 2025, with projected growth slowing to 6.5 percent in 2025 and 5.6 percent in 2026.",
+        "Credit to the economy grew by 14.9 percent in 2024, with projections of 15.0 percent in 2025 and 13.0 percent in 2026.",
+        "Broad money (M2) growth was 12.0 percent in 2024, and is projected to reach 12.5 percent in 2025 and 11.5 percent in 2026.",
+        "Domestic macro-financial risks include potential financial stress from tighter financial conditions and high corporate indebtedness.",
+        "Priority actions for financial sector stability include building liquidity and capital buffers and improving the macroprudential toolkit.",
+        "Space for monetary policy easing is very limited, requiring close monitoring of inflation and FX risks alongside greater exchange rate flexibility.",
+        "Directors recommended further upgrading of crisis preparedness and resolution, insolvency, AML/CFT frameworks, and the regulation of crypto assets."
+      ],
+      "summary": "Vietnam’s economy grew by 7.1 percent in 2024 and 7.5 percent (y/y) in H1 2025, supported by export momentum and credit growth. However, growth is projected to decelerate to 6.5 percent in 2025 and 5.6 percent in 2026 amid global trade uncertainty and domestic risks from high corporate indebtedness. With monetary policy space limited, recommendations emphasize exchange rate flexibility, building bank capital and liquidity buffers, upgrading macroprudential and resolution frameworks, and using fiscal policy prudently to support activity.",
+      "words": 78,
+      "length_check": "ok",
+      "model": "gemini-3.5-flash",
+      "latency_s": 10.3
+    },
+    "CONTEXT AND RECENT ECONOMIC DEVELOPMENTS": {
+      "notes": [
+        "2025:H1 GDP growth accelerated to 7.5 percent y/y, driven by accommodative policies, export front-loading, and temporary government spending.",
+        "Headline inflation reached 3.6 percent in June 2025, staying beneath the official 41⁄2-5 percent target range.",
+        "The 2024 current account surplus rose to a historical high of 6.6 percent of GDP, accompanied by high errors and omissions of 6.9 percent of GDP.",
+        "The Vietnamese dong depreciated 5 percent against the U.S. dollar in 2024 and continued to weaken in 2025, prompting the SBV to adjust the center of its ±5-percent exchange rate band.",
+        "Bank credit growth expanded significantly to 15 percent in 2024 and 19 percent y/y in June 2025, raising the credit stock to 136 percent of GDP with a positive credit-to-GDP gap.",
+        "Financial system risks remain in the corporate bond market due to a concentration of maturities due in 2025:H2 and an interconnected, institution-dominated investor base.",
+        "The 2024 fiscal deficit was estimated at 1.5 percent of GDP, with public and publicly guaranteed debt standing at 31.3 percent of GDP.",
+        "Trade risks are elevated due to new U.S. tariffs expected to reach 20 percent from August, alongside a 40 percent tariff rate on transshipments."
+      ],
+      "summary": "Vietnam’s economy grew 7.5 percent y/y in 2025:H1, supported by accommodative policies, front-loaded exports, and rapid credit growth (19 percent y/y in June 2025). June inflation reached 3.6 percent, remaining below the 41⁄2-5 percent target. The 2024 current account surplus reached 6.6 percent of GDP, while total credit reached 136 percent of GDP. Financial risks persist from exchange rate depreciation—following a 5 percent decline against the U.S. dollar in 2024—impending U.S. tariffs up to 20–40 percent, and substantial corporate bond maturities in 2025:H2.",
+      "words": 83,
+      "length_check": "ok",
+      "model": "gemini-3.5-flash",
+      "latency_s": 12.97
+    },
+    "OUTLOOK AND RISKS": {
+      "notes": [
+        "Direct value-added embedded in exports to the U.S. is approximately 10 percent of GDP.",
+        "GDP growth is projected to decelerate to 6.5 percent in 2025 and 5.6 percent in 2026.",
+        "Baseline projections assume average U.S. tariffs of 20 percent starting August 2025.",
+        "The current account surplus is expected to narrow to 4 percent of GDP in 2025.",
+        "Inflation is projected to remain below the 4.5-5 percent target through 2025 and 2026.",
+        "A downside scenario with 40 percent tariffs could reduce growth by an additional 0.2-0.6 percentage points in 2025-26.",
+        "Comprehensive structural reforms could potentially boost medium-term growth by more than 2 percentage points.",
+        "Financial stability risks include high corporate indebtedness and fast-rising credit growth leading to potential NPL increases.",
+        "The output gap is expected to become negative in 2026 as tariff effects and lower government spending take hold.",
+        "Vietnamese authorities target a growth rate of at least 8 percent in 2025."
+      ],
+      "summary": "Vietnam's growth is projected to slow to 6.5 percent in 2025 and 5.6 percent in 2026, driven by 20 percent U.S. tariffs starting August 2025. With exports to the U.S. representing 10 percent of GDP, trade uncertainty and high corporate debt pose significant risks. The current account surplus will likely narrow to 4 percent in 2025. While authorities target 8 percent growth, IMF staff warn that 40 percent tariffs could further reduce growth by 0.2-0.6 percentage points.",
+      "words": 77,
+      "length_check": "ok",
+      "model": "gemini-3-flash-preview",
+      "latency_s": 7.73
+    },
+    "POLICY DISCUSSION": {
+      "notes": [
+        "The on-balance-sheet non-performing loan (NPL) ratio declined from a peak of 5.9 percent in September 2023 to 5.3 percent in March 2025, but remains above the 2.3 percent level in 2022.",
+        "Capital adequacy ratios reached 10.4 percent for public banks and 12.1 percent for private banks in 2024:Q1, while liquid assets accounted for only 7.8 percent of total assets as of June 2024.",
+        "The banking system loan-to-deposit ratio exceeds 100 percent, increasing reliance on wholesale funding amid elevated corporate vulnerabilities in the real estate sector.",
+        "The fiscal deficit is projected to widen to 3.3 percent of GDP in 2025 with an estimated fiscal impulse of almost 2 percent of GDP, before narrowing to 2.3 percent of GDP in 2026.",
+        "Early retirement packages for institutional restructuring are estimated to cost 1 percent of GDP during 2025-26, with expected wage bill savings of 0.9 percent of GDP annually.",
+        "Public investment implementation reached 91 percent of the plan in 2024; model simulations show scaling up public investment by 11.5 percent of GDP over 2025-30 could raise medium-term growth by more than 2 percentage points.",
+        "Replacing the current debt ceiling of 60 percent of GDP with a lower ceiling of 50 percent of GDP is recommended as a prudent medium-term anchor.",
+        "The foreign direct investment (FDI) sector accounted for almost 40 percent of firms' employment in 2022 and over 70 percent of exports in 2024, emphasizing dualism relative to domestic firms."
+      ],
+      "summary": "In 2025, Vietnam faces elevated global trade uncertainty, requiring flexible policy responses. The fiscal deficit is projected to widen to 3.3 percent of GDP in 2025 before narrowing to 2.3 percent in 2026. Financial sector vulnerabilities remain elevated: the NPL ratio stood at 5.3 percent in March 2025, the loan-to-deposit ratio exceeds 100 percent, and liquid assets were just 7.8 percent of total assets as of June 2024. Scaling up public investment by 11.5 percent of GDP over 2025-30 could raise medium-term growth by over 2 percentage points.",
+      "words": 88,
+      "length_check": "ok",
+      "model": "gemini-3.5-flash",
+      "latency_s": 16.25
+    },
+    "STAFF APPRAISAL": {
+      "notes": [
+        "A large fiscal stimulus is sustaining strong economic growth in 2025, but the fiscal impulse will be mostly unwound by 2026.",
+        "The economic outlook faces downside risks from an uncertain external environment and the potential implementation of higher U.S. tariffs.",
+        "Monetary policy easing room is very limited given already low policy rates and the risks of increasing foreign exchange (FX) and inflationary pressures.",
+        "Banks are vulnerable to economic deterioration due to relatively low capital levels and high non-performing loans (NPLs) amidst rapid credit growth.",
+        "Key financial sector priorities include building liquidity and capital buffers, improving stress testing, resolving failed banks, and upgrading the insolvency framework.",
+        "The external sector position in 2024 was assessed to be substantially stronger than warranted by fundamentals and desirable policies, despite data gaps and current account volatility.",
+        "Foreign exchange (FX) reserves were moderately below adequacy at end-2024 due to SBV interventions to contain FX volatility."
+      ],
+      "summary": "Vietnam faces risks from external uncertainty and potential higher U.S. tariffs. A large fiscal stimulus supports strong growth in 2025, but will mostly unwind by 2026. Monetary easing room is very limited given low policy rates and FX/inflation risks. Banks remain vulnerable due to low capital levels and high NPLs amidst rapid credit growth. In 2024, the external position was substantially stronger than fundamentals, while FX reserves were moderately below adequacy at end-2024 following SBV interventions.",
+      "words": 76,
+      "length_check": "ok",
+      "model": "gemini-3.5-flash",
+      "latency_s": 7.67
+    },
+    "FIGURES, TABLES AND ANNEXES": {
+      "notes": [
+        "Real GDP growth reached 7.1% in 2024 and accelerated to 7.52% in 2025H1, supported by domestic consumption and exports.",
+        "Regulatory Capital to Risk-Weighted Assets stood at 11.9% in 2024 Q2, but capital buffers remain weak, especially among SOCBs.",
+        "Credit to the economy expanded by 14.9% in 2024 and 8.30% by end-June 2025, pushing the dong credit-to-deposit ratio to 99.5% in 2024.",
+        "Reported NPLs to total gross loans were 5.4% in 2024 Q2, while overall impaired assets decreased to 5.16% as of March 2025.",
+        "Gross international reserves declined to US$83.1 billion in 2024 (covering 2.4 months of prospective imports) and are projected at US$79.3 billion in 2025.",
+        "The current account surplus was 6.6 percent of GDP in 2024, but financial account outflows and errors and omissions (-US$31.8 billion or 6.9 percent of GDP) weighed on net external balances.",
+        "Real estate scheduled corporate bond maturities remain substantial, standing at US$1.6 billion in 2025Q3 and US$1.6 billion in 2026Q2."
+      ],
+      "summary": "Vietnam’s real GDP growth reached 7.1% in 2024 and 7.52% in 2025H1, while CPI inflation was 3.57% in June 2025. Financial sector risks persist due to thin capital buffers, with regulatory capital to risk-weighted assets at 11.9% in 2024 Q2, and tight liquidity as credit grew 14.9% in 2024. Gross international reserves fell to US$83.1 billion in 2024. The current account recorded a surplus of 6.6 percent of GDP in 2024, alongside unrecorded capital outflows with errors and omissions reaching 6.9 percent of GDP.",
+      "words": 84,
+      "length_check": "ok",
+      "model": "gemini-3.5-flash",
+      "latency_s": 11.63
+    }
+  },
+  "executive_summary": {
+    "bullets": [
+      "Bank credit growth expanded significantly to 15 percent in 2024 and 19 percent y/y in June 2025, raising the credit stock to 136 percent of GDP with a positive credit-to-GDP gap.",
+      "The on-balance-sheet non-performing loan (NPL) ratio declined from a peak of 5.9 percent in September 2023 to 5.3 percent in March 2025, but remains above the 2.3 percent level in 2022.",
+      "Capital adequacy ratios reached 10.4 percent for public banks and 12.1 percent for private banks in 2024:Q1, while liquid assets accounted for only 7.8 percent of total assets as of June 2024.",
+      "The banking system loan-to-deposit ratio exceeds 100 percent, increasing reliance on wholesale funding amid elevated corporate vulnerabilities in the real estate sector.",
+      "Financial system risks persist in the corporate bond market due to a concentration of maturities due in 2025:H2, with real estate scheduled bond maturities standing at US$1.6 billion in 2025Q3 and US$1.6 billion in 2026Q2.",
+      "Domestic macro-financial risks include potential financial stress from tighter financial conditions, high corporate indebtedness, and fast-rising credit growth that could lead to NPL increases.",
+      "Regulatory Capital to Risk-Weighted Assets stood at 11.9% in 2024 Q2, but capital buffers remain weak, especially among SOCBs.",
+      "Gross international reserves declined to US$83.1 billion in 2024—covering 2.4 months of prospective imports—and were moderately below adequacy at end-2024 due to foreign exchange interventions.",
+      "Priority financial sector actions include building liquidity and capital buffers, improving stress testing, resolving failed banks, and upgrading crisis preparedness, insolvency, and macroprudential toolkits."
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  "judge_scores": {
+    "PRESS RELEASE AND KEY ISSUES": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary accurately reflects the data and key findings from the source text, including the exact GDP growth rates for 2024 (7.1%), H1 2025 (7.5%), and projections for 2025 (6.5%) and 2026 (5.6%). It correctly captures the policy recommendations regarding monetary, fiscal, and financial sector measures without introducing any external or unsupported claims.",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    "CONTEXT AND RECENT ECONOMIC DEVELOPMENTS": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary is highly accurate, consistent, and captures the core macroeconomic developments from the source text. All numbers cited (7.5% growth in 2025:H1, 19% credit growth in June 2025, 3.6% inflation, 4.5-5% target, 6.6% 2024 current account surplus, 136% total credit to GDP, 5% VND depreciation against USD in 2024, U.S. tariffs up to 20-40%, and 2025:H2 bond maturities) are directly supported by the source text.",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    "OUTLOOK AND RISKS": {
+      "consistency": 5,
+      "completeness": 4,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary accurately reflects the core projections, data points, and risks mentioned in the source text without introducing any contradictions or unsupported claims. It captures the growth slowdown, tariff assumptions, export exposure, current account surplus, authority targets, and downside scenarios faithfully.",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    "POLICY DISCUSSION": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary accurately captures the main points of the source text, including the 2025 fiscal deficit projections, the NPL ratio, loan-to-deposit ratio, liquid assets percentage, and the projected growth impact of scaling up public investment. All numbers and claims are directly supported by the source text.",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    "STAFF APPRAISAL": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary accurately reflects the key points of the source text, including the economic outlook, fiscal and monetary policy constraints, financial sector vulnerabilities, and the external sector assessment for 2024. All claims are directly supported by the provided source.",
+      "judge_model": "gemini-3.1-flash-lite"
+    },
+    "FIGURES, TABLES AND ANNEXES": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary accurately reflects data and statements present in the source documents. Specifically: real GDP growth of 7.1% in 2024 (Table 1), 7.52% in 2025H1 (Statement by the Executive Director), June 2025 CPI inflation of 3.57% (Statement by the Executive Director), regulatory capital to risk-weighted assets at 11.9% in 2024 Q2 (Table 6), credit growth of 14.9% in 2024 (Table 1), gross international reserves of US$83.1 billion in 2024 (Table 1), current account surplus of 6.6 percent of GDP in 2024 (Table 1), and errors and omissions at 6.9 percent of GDP in 2024 (Table 1).",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    "EXECUTIVE SUMMARY": {
+      "consistency": 5,
+      "completeness": 5,
+      "factual_alignment": 5,
+      "unsupported_claims": [],
+      "rationale": "The summary is highly consistent, complete, and factually aligned with the provided source text. Every single metric, date, and claim regarding bank credit growth, NPL ratios, capital adequacy ratios, loan-to-deposit ratios, bond maturities, reserves, and policy recommendations is directly supported by the text and data tables in the IMF report.",
+      "judge_model": "gemini-3.5-flash-lite"
+    }
+  },
+  "numeric_grounding": {
+    "PRESS RELEASE AND KEY ISSUES": {
+      "numbers": 4,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "CONTEXT AND RECENT ECONOMIC DEVELOPMENTS": {
+      "numbers": 11,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "OUTLOOK AND RISKS": {
+      "numbers": 9,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "POLICY DISCUSSION": {
+      "numbers": 8,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "STAFF APPRAISAL": {
+      "numbers": 0,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "FIGURES, TABLES AND ANNEXES": {
+      "numbers": 8,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    },
+    "EXECUTIVE SUMMARY": {
+      "numbers": 15,
+      "unsupported_numbers": [],
+      "support_rate": 1.0
+    }
+  }
+}

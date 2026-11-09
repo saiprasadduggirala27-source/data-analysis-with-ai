@@ -1,0 +1,97 @@
+{
+  "report": "IMF Country Report No. 25/283",
+  "cleaning_pct_removed": 8.9,
+  "chunks": 107,
+  "retrieval_units": 107,
+  "summary_words_max": 88,
+  "judge_means": {
+    "consistency": 5.0,
+    "completeness": 4.86,
+    "factual_alignment": 5.0
+  },
+  "numeric_support_exec_summary": 1.0,
+  "indicators": {
+    "country_name": "Vietnam",
+    "gdp_growth_forecast_pct": 6.5,
+    "headline_inflation_rate_pct": 3.6,
+    "central_bank_policy_rate_pct": -1.0,
+    "non_performing_loan_ratio": 5.3,
+    "unemployment_rate_pct": 2.2,
+    "tier_1_capital_ratio": 10.6
+  },
+  "fallbacks": [
+    "central_bank_policy_rate_pct"
+  ],
+  "trend_series_verified": 8,
+  "trend_series": 8,
+  "minilm_text_unseen_pct": 22.3,
+  "cleaning_kept_text_identical_pages": "73/73",
+  "retrieval_questions": 17,
+  "citation_repairs": {
+    "single": [],
+    "multi": []
+  },
+  "llm_calls_this_run": {
+    "from cache": 42,
+    "api calls": 1
+  },
+  "retrieval": [
+    {
+      "config": "MiniLM single-query",
+      "hit@1": 0.353,
+      "hit@k": 0.647,
+      "mrr@10": 0.473,
+      "k": 5,
+      "n": 17
+    },
+    {
+      "config": "BGE single-query",
+      "hit@1": 0.471,
+      "hit@k": 0.647,
+      "mrr@10": 0.566,
+      "k": 5,
+      "n": 17
+    },
+    {
+      "config": "BGE single-query",
+      "hit@1": 0.471,
+      "hit@k": 0.765,
+      "mrr@10": 0.566,
+      "k": 8,
+      "n": 17
+    },
+    {
+      "config": "BGE multi-query",
+      "hit@1": 0.353,
+      "hit@k": 0.765,
+      "mrr@10": 0.556,
+      "k": 5,
+      "n": 17
+    },
+    {
+      "config": "BGE multi-query",
+      "hit@1": 0.353,
+      "hit@k": 0.824,
+      "mrr@10": 0.556,
+      "k": 8,
+      "n": 17
+    }
+  ],
+  "rag_means": {
+    "multi": {
+      "faithfulness": 5.0,
+      "completeness": 3.67
+    },
+    "single": {
+      "faithfulness": 5.0,
+      "completeness": 3.5
+    }
+  },
+  "rag_status": "{('multi', 'ok'): 6, ('multi', 'refused'): 1, ('single', 'ok'): 6, ('single', 'refused'): 1}",
+  "models_used": {
+    "gemini-3.5-flash": 18,
+    "gemini-3.5-flash-lite": 20,
+    "gemini-3-flash-preview": 9,
+    "gemini-3.1-flash-lite": 1
+  }
+}
